@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  allowedDevOrigins: ['testcodev8005.builtwithrocket.new'],
 };
 
 export default nextConfig;

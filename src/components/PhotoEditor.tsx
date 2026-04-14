@@ -1,32 +1,10 @@
 "use client";
 
 import React, { useState, useRef, useEffect, useCallback } from 'react';
-import { 
-  Upload, 
-  Download, 
-  RotateCcw, 
-  Sun, 
-  Contrast as ContrastIcon, 
-  Droplets, 
-  Ghost, 
-  Palette, 
-  Image as ImageIcon,
-  Layers,
-  Undo,
-  Save,
-  Trash2,
-  Sparkles,
-  Crop as CropIcon,
-  RotateCw,
-  Maximize,
-  Check,
-  X,
-  Zap,
-  Wind
-} from 'lucide-react';
+import { Upload, Download, RotateCcw, Sun, Contrast as ContrastIcon, Droplets, Ghost, Palette, Image as ImageIcon, Undo, Trash2, Sparkles, Crop as CropIcon, RotateCw, Check, X, Wind } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Slider } from '@/components/ui/slider';
-import { Card } from '@/components/ui/card';
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Separator } from '@/components/ui/separator';
